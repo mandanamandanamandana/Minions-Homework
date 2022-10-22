@@ -50,6 +50,6 @@ console.log(actuallyCapitalizedMinions)
 
 // Use everyagain, but this time on your new actuallyCapitalizedMinionsarray, to check if they're all capitalized now
 
-console.log(actuallyCapitalizedMinions.every((value) => {
-    return item[0] === item[0].toUpperCase()
+console.log(actuallyCapitalizedMinions.every((item) => {
+ return item[0] === item[0].toUpperCase()
 }))
